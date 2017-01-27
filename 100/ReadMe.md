@@ -45,7 +45,7 @@ To complete this lab you will need to download Azure PowerShell and Visual Studi
 
 		where azuredeploy.json is your blank template. Run ARM PowerShell script to successfully deploy the blank JSON template.
 		
-		c. Add one parameter called "storageAccountType" to the JSON code with default value of "Standard_LRS" (type: string) and another parameter called "storageAccountName" without a default value (type: string). Use PowerShell to successfully execute your basic template successfully.  (Hint: Only run the last line of the PowerShell script each time you want to test your template)
+		c. Add one parameter called "storageAccountType" to the JSON code with default value of "Standard_LRS" (type: string) and another parameter called "storageAccountName" without a default value (type: string). Use PowerShell to successfully execute your basic template successfully.  
 			• Recommend using an IDE or text editor that at the minimum understands JSON (e.g. Visual Studio, VS Code, etc.). Visual studio 2015 with Azure SDK installed is the preferred choice 
 		d. Add one variable called "storageAccountNamevar" with the string value of "placeholder" from the previous successfully executed template. Validate by successfully executing the template. 
 		e. Add an output section in the JSON template referencing each of the parameters and the variable created in the previous steps. Execute the template and confirm your output data is valid. For additional information pleas refer back to the 2v, "Understand the concept of outputs"
@@ -53,7 +53,8 @@ To complete this lab you will need to download Azure PowerShell and Visual Studi
 		
 	3. Review Resources:
 		i. Read through the differences between the ARM and ASM management models https://azure.microsoft.com/en-us/documentation/articles/resource-manager-deployment-model/
-	Validation phase: 
+
+Validation phase: 
 		a. Understand the difference between ARM and the ASM model. 
 	4. Review Resources:
 		i. Review the different type of ARM template functions for numbers, strings, arrays, deployment values, and resources https://azure.microsoft.com/en-us/documentation/articles/resource-group-template-functions/
